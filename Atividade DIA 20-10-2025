@@ -1,0 +1,28 @@
+#include <clocale>
+#include <iostream>
+using namespace std;
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
+
+
+int main()
+
+	// Escreva um app que pegue 8 notas e diga se o aluno está aprovado ou não, utilizando laços de repetição.
+{
+	double notas[8];
+	double soma = 0;
+	
+	
+	for(int i = 0; i < 8; i++){
+	std::cout<< "Digite a nota: " << i + 1 << ": ";
+	std::cin >> notas[i];
+	soma += notas[i];
+	}
+	double resultado = soma / 8;
+	
+	std::cout << "A média é:" << resultado; 
+	
+	
+}
