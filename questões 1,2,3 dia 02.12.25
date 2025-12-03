@@ -1,0 +1,9 @@
+1 — O que é um vetor em C++?
+R: É uma estrutura capaz de guardar vários elementos do mesmo tipo, organizados de forma contínua na memória. Cada elemento pode ser acessado pela sua posição dentro do vetor.
+
+2 — Diferença entre declarar um vetor com tamanho fixo e já inicializá-lo com valores:
+R: Quando você só declara, apenas informa quantas posições o vetor terá, sem colocar conteúdo nelas. Exemplo: int notas[5];.
+Ao inicializar durante a declaração, você já preenche o vetor com valores definidos. Exemplo: int notas[5] = {10, 20, 30, 40, 50};.
+
+3 — O que é índice e qual o intervalo válido para int notas[10]?
+R: O índice representa a numeração usada para acessar cada posição do vetor. No caso de notas[10], as posições válidas vão do índice 0 até o 9, totalizando dez elementos.
